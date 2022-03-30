@@ -17,5 +17,9 @@ public class Sample1 {
 		username.sendKeys("udayakumar");
 		WebElement pass = driver.findElement(By.id("password"));
 		pass.sendKeys("Uk893941@");
+		WebElement login = driver.findElement(By.id("login"));
+		login.click();
+
+		
 	}
 }
